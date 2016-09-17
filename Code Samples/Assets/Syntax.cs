@@ -36,8 +36,17 @@ public class Syntax : MonoBehaviour {
         //Built in function, does require a paramter, or an object it can print.
         print("Anyone? Bueller?");
     }
-	
+
     //Note that in C#, there are a lot of rules to stop confusion. Functions can only include letters, numbers, and underscores, and can't begin with a number.
     //Also, system keywords can't be used as user-defined keywords.
+
+    //This function has even more syntax in it. Really though, there's way more syntax than I can cover.
+    string[] uselessFunction(string myString, int[] myInt)
+    {
+        //Arrays are declared by putting [] after the data type, and can be given a size inside [] or even initialized with values in the form {dataOne, dataTwo, etc.}
+        //Also, notice that code blocks are indented, to appear to be together.
+        string[] stringArray = { myString, myString };
+        return stringArray;
+}
 
 }
